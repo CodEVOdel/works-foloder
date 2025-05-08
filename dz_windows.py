@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox
+
 root=tk.Tk() 
 root.geometry('700x700')
 tk.Label(root, text="Анкета ученика",background="#FF0000",relief="raised",font=("Cascadia Code",12)).grid(row=0, column=150,sticky="ew")
