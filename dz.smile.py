@@ -1,0 +1,13 @@
+import tkinter as tk
+form=tk.Tk()
+form.geometry('600x600')
+canvas=tk.Canvas(width=500, height=500, bg="black")
+canvas.create_oval(50,50,200,200, fill='yellow',width=3)
+# canvas.create_oval(70,175,175,140, fill="red", width=3)
+canvas.create_arc(70,110,170,180,start=180, extent=180, fill="red", width=3)
+canvas.create_oval(80,130,120,80,fill="white",width=3)
+canvas.create_oval(90,100,110,120, fill="blue", width=3)
+canvas.create_oval(125,130,165,80,fill="white",width=3)
+canvas.create_oval(135,100,155,120,fill="blue",width=3)
+canvas.pack()
+tk.mainloop()
